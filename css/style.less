@@ -1,0 +1,540 @@
+/* Font settingy */
+@font-face {
+  font-family: 'Roboto_bold';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Roboto-Bold.woff2') format('woff2'),
+  url('../fonts/Roboto-Bold.woff') format('woff'),
+  url('../fonts/Roboto-Bold.ttf') format('truetype'),
+  url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto_regular';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Roboto-Regular.woff2') format('woff2'),
+  url('../fonts/Roboto-Regular.woff') format('woff'),
+  url('../fonts/Roboto-Regular.ttf') format('truetype'),
+  url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto_medium';
+  src: url('../fonts/Roboto-Medium.eot');
+  src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Roboto-Medium.woff2') format('woff2'),
+  url('../fonts/Roboto-Medium.woff') format('woff'),
+  url('../fonts/Roboto-Medium.ttf') format('truetype'),
+  url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.reg() {
+  font-family: 'Roboto_regular', sans-serif;
+}
+
+.bold() {
+  font-family: 'Roboto_bold', sans-serif;
+}
+
+.medium() {
+  font-family: 'Roboto_medium', sans-serif;
+}
+
+/* Colors*/
+@main-color: #ff9027;
+@text-color: #f0f0f0;
+@text-order-color: #ffffff;
+@bg-top56: #2C2E358F;
+@bg-color: #2C2E35;
+@bg-top69: rgba(44, 46, 53, 0.69);
+@bg-6section: #28282f;
+
+
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+
+body {
+  .reg();
+}
+
+/* Typography */
+section {
+  padding: 0;
+}
+
+.section-header {
+  .bold();
+  font-size: 5rem;
+  text-align: center;
+  color: @main-color;
+  margin-bottom: 0;
+}
+
+button {
+  .bold();
+  background-color: transparent;
+  border-color: @main-color;
+  border-radius: 0.5rem;
+  color: @text-color;
+  font-size: 2.5rem;
+  border-style: solid;
+
+  &:hover {
+    cursor: pointer;
+    background-color: @main-color;
+    transition: all 0.3s;
+  }
+}
+
+button,
+input,
+a {
+  &:focus {
+    outline: none;
+  }
+}
+
+.main {
+  padding: 2.3rem 0 21rem;
+  text-align: center;
+  background: linear-gradient(@bg-top56, @bg-top56),
+  url(../img/main_bg.png) center center no-repeat;
+  background-size: auto, cover;
+
+  .container {
+    button {
+      margin-top: 7rem;
+      width: 30rem;
+      height: 8rem;
+    }
+  }
+
+  &-title {
+    h1 {
+      .bold();
+      margin-top: 14rem;
+      font-weight: 800;
+      font-size: 4rem;
+      color: @text-color;
+    }
+  }
+}
+
+
+// Оформление секции стейки
+.features {
+  background-color: @bg-color;
+
+  .container {
+    padding-top: 7rem;
+    padding-bottom: 8.8rem;
+
+    .section-header {
+      .bold();
+      margin-bottom: 7rem;
+    }
+
+    .swiper-box {
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+      .swiper-button-prev, .swiper-button-next {
+        position: unset;
+        margin: 0;
+        color: @main-color;
+      }
+
+      .swiper {
+        width: 111rem;
+
+        .swiper-wrapper {
+          color: @text-color;
+          text-align: center;
+
+          .swiper-slide {
+            margin-right: 0;
+
+            h2 {
+              .bold();
+              display: inline-block;
+              text-align: center;
+              font-size: 2.5rem;
+              line-height: 2.93rem;
+              margin-top: 3rem;
+              margin-bottom: 0;
+              width: 25.5rem;
+            }
+
+            p {
+              display: inline-block;
+              text-align: center;
+              font-size: 2.3rem;
+              line-height: 2.7rem;
+              margin-top: 2.5rem;
+              height: 12.6rem;
+              margin-bottom: 0;
+              width: 25.5rem;
+            }
+
+            .text {
+              height: 12rem;
+            }
+
+            button {
+              margin-top: 1.6rem;
+              height: 5.6rem;
+              width: 19.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+&-img {
+  display: inline-block;
+  text-align: center;
+
+}
+
+
+.second-header {
+  .bold();
+  font-size: 3rem;
+  color: @text-order-color;
+}
+
+.order {
+  margin-top: -1px;
+  background: linear-gradient(@bg-top69, @bg-top69), url(../img/section3_bg.png) center center no-repeat;
+  background-size: auto, cover;
+  padding-top: 7.1rem;
+  padding-bottom: 7.1rem;
+
+
+  .form {
+    text-align: center;
+
+    h2 {
+      margin: 0;
+    }
+
+    ::placeholder {
+      font-size: 2.5rem;
+      color: @text-order-color;
+    }
+
+    .name {
+      text-align: left;
+
+    }
+
+    .email {
+      text-align: right;
+    }
+
+    input {
+      margin-top: 5rem;
+      margin-bottom: 1rem;
+      padding: 0;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid @main-color;
+      font-size: 2.5rem;
+      color: @text-order-color;
+      width: 47.1rem;
+      height: 3.9rem;
+
+    }
+
+    button {
+      margin-top: 6rem;
+      height: 8rem;
+      width: 30rem;
+    }
+  }
+}
+
+.grays-marbling {
+  background: linear-gradient(@bg-top69, @bg-top69), url(../img/section4_bg.png) center no-repeat;
+  background-size: auto, cover;
+  width: 100%;
+  height: 70.5rem;
+}
+
+.footer {
+  background-color: @bg-6section;
+  padding: 8rem;
+
+  .container {
+
+    h2 {
+      margin-bottom: 2.5rem;
+    }
+
+    span {
+      font-size: 2.5rem;
+      color: @text-order-color;
+
+      p {
+        color: @main-color;
+        margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
+
+      }
+    }
+
+    .icons {
+
+      padding-top: 1.5rem;
+
+    }
+
+  }
+}
+
+/*Оформление всплывающих окон*/
+
+
+@media screen and (max-width: 768px) {
+  button {
+    font-size: 2rem;
+  }
+
+  .main {
+    padding: 0.636rem 0 2.9rem;
+
+    .container {
+      button {
+        margin-top: 2rem;
+        width: 12rem;
+        height: 4rem;
+      }
+    }
+
+    &-title {
+      h1 {
+        margin-top: 2.282rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+
+  // Оформление секции стейки
+  .features {
+
+    .container {
+      padding-top: 2rem;
+      padding-bottom: 6.2rem;
+
+      .section-header {
+        margin-bottom: 2rem;
+      }
+
+      .swiper-box {
+
+        .swiper-button-prev, .swiper-button-next {
+
+        }
+
+        .swiper {
+          width: 32.1rem;
+
+          .swiper-wrapper {
+
+            .swiper-slide {
+
+              h2 {
+                font-size: 2rem;
+                line-height: 2.344rem;
+                margin-top: 2rem;
+                width: 15rem;
+                height: 4.6rem;
+              }
+
+              p {
+                font-size: 1.6rem;
+                line-height: 1.875rem;
+                margin-top: 1rem;
+                height: 9.7rem;
+                width: 15rem;
+              }
+
+              .text {
+                height: 12rem;
+              }
+
+              button {
+                font-size: 2rem;
+                margin-top: 2rem;
+                height: 3.7rem;
+                width: 11.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .order {
+    padding-top: 0.8rem;
+    padding-bottom: 0.7rem;
+
+    .form {
+      ::placeholder {
+        font-size: 1.4rem;
+        line-height: 1.641;
+      }
+      input {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.4rem;
+        line-height: 1.641;
+        width: 32rem;
+        height: 2.6rem;
+
+      }
+
+      .name {
+        text-align: center;
+
+      }
+
+      .email {
+        text-align: center;
+      }
+
+      .tel {
+        margin-left: 0;
+
+      }
+
+
+      button {
+        margin-top: 0.5rem;
+        height: 3.7rem;
+        width: 10rem;
+        font-size: 1.4rem;
+        line-height: 1.641;
+      }
+    }
+  }
+
+  .grays-marbling {
+    background-size: cover;
+    width: 100%;
+    height: 26rem;
+  }
+
+  .footer {
+    padding: 1.5rem;
+
+    .container {
+
+      h2 {
+        font-size: 1.4rem;
+        line-height: 1.641rem;
+        margin-bottom: 0.5rem;
+      }
+
+      span {
+        font-size: 1.5rem;
+        line-height: 1.758rem;
+
+        p {
+          margin-bottom: 1rem;
+
+        }
+      }
+
+      .icons {
+
+        padding-top: 1.5rem;
+      }
+
+      .maps {
+        display: none;
+      }
+    }
+  }
+
+  .arrow {
+    opacity: 0;
+  }
+
+  /*Оформление всплывающих окон*/
+  .popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    background-color: @bg-color;
+
+    &-content {
+      margin-right: 5.5%;
+      margin-left: 5.5%;
+
+      .img-close {
+        text-align: right;
+
+        img {
+          margin-top: 0.5rem;
+          border-color: @text-order-color;
+        }
+      }
+
+      .img-content {
+        margin-top: 0.4rem;
+        text-align: center;
+      }
+
+      .description {
+        margin-top: 1.7rem;
+
+        span {
+
+          color: @text-order-color;
+
+          h2 {
+            .bold();
+            font-size: 2rem;
+            line-height: 2.344rem;
+          }
+
+          p {
+            .reg();
+            margin-top: 2rem;
+            margin-bottom: 0;
+            font-size: 1.5rem;
+            line-height: 1.758rem;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+
