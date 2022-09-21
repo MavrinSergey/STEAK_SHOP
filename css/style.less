@@ -68,6 +68,10 @@ html {
 body {
   .reg();
 }
+a {
+  text-decoration: none;
+  color: @text-color;
+}
 
 /* Typography */
 section {
@@ -348,12 +352,14 @@ a {
 
       .swiper-box {
 
-        .swiper-button-prev, .swiper-button-next {
 
+        .swiper-button-prev, .swiper-button-next {
+display: none;
         }
 
         .swiper {
-          width: 32.1rem;
+          //width: 32.1rem;
+          max-width: 100%;
 
           .swiper-wrapper {
 

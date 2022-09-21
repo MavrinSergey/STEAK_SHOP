@@ -31,6 +31,10 @@ html {
 body {
   font-family: 'Roboto_regular', sans-serif;
 }
+a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
 /* Typography */
 section {
   padding: 0;
@@ -237,8 +241,12 @@ a:focus {
   .features .container .section-header {
     margin-bottom: 2rem;
   }
+  .features .container .swiper-box .swiper-button-prev,
+  .features .container .swiper-box .swiper-button-next {
+    display: none;
+  }
   .features .container .swiper-box .swiper {
-    width: 32.1rem;
+    max-width: 100%;
   }
   .features .container .swiper-box .swiper .swiper-wrapper .swiper-slide h2 {
     font-size: 2rem;
