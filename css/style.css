@@ -226,8 +226,6 @@ a:focus {
   top: 0;
   bottom: 0;
   right: 0;
-  min-width: 100%;
-  min-height: 100%;
   z-index: 10;
   background-color: #2C2E35;
 }
@@ -385,7 +383,8 @@ a:focus {
     text-align: center;
   }
   .popup .popup-content .popup-body picture {
-    height: 24rem;
+    height: content-box;
+    width: content-box;
   }
   .popup .popup-content .popup-body .description {
     margin-top: 1.7rem;
