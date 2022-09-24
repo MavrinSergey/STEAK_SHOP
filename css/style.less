@@ -313,8 +313,56 @@ a {
 }
 
 /*Оформление всплывающих окон*/
+/*Оформление всплывающих окон*/
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 10;
+  background-color: @bg-color;
 
+  &-content {
+    text-align: right;
+    margin-right: 4.333rem;
+    margin-left: 9.6rem;
+    padding-top: 0.5rem;
 
+    .popup-body {
+      margin-top: 0.4rem;
+      text-align: left;
+      display: flex;
+
+      .description {
+        margin-left: 6.9rem;
+
+        span {
+          color: @text-order-color;
+
+          h2 {
+            .bold();
+            font-size: 4rem;
+            line-height: 4.688rem;
+          }
+
+          p {
+            .reg();
+            margin-top: 4rem;
+            margin-bottom: 0;
+            font-size: 2.5rem;
+            line-height: 2.93rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////////////
 @media screen and (max-width: 768px) {
   button {
     font-size: 2rem;
@@ -482,67 +530,60 @@ a {
     }
   }
 
-  .arrow {
-    opacity: 0;
-  }
 
   /*Оформление всплывающих окон*/
   .popup {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 1;
-    background-color: @bg-color;
 
-    &-content {
-      margin-right: 5.5%;
-      margin-left: 5.5%;
+    .popup-content {
+      margin: 0;
+      padding-top: 0;
 
-      .img-close {
-        text-align: right;
+      .popup-header {
+        margin-top: 0.3rem;
 
-        img {
-          margin-top: 0.5rem;
-          border-color: @text-order-color;
+        .close {
+
+          picture {
+          }
         }
       }
 
-      .img-content {
+      .popup-body {
         margin-top: 0.4rem;
+        display: block;
         text-align: center;
-      }
 
-      .description {
-        margin-top: 1.7rem;
+        picture {
+          height: 24rem;
 
-        span {
+        }
 
-          color: @text-order-color;
+        .description {
+          margin-top: 1.7rem;
+          margin-left: 2rem;
+          margin-right: 2rem;
+          text-align: left;
 
-          h2 {
-            .bold();
-            font-size: 2rem;
-            line-height: 2.344rem;
-          }
+          span {
+            h2 {
+              font-size: 2rem;
+              line-height: 2.344rem;
+              margin-bottom: 0;
+            }
 
-          p {
-            .reg();
-            margin-top: 2rem;
-            margin-bottom: 0;
-            font-size: 1.5rem;
-            line-height: 1.758rem;
+            p {
+              margin-top: 2rem;
+              margin-bottom: 0;
+              font-size: 1.5rem;
+              line-height: 1.758rem;
+            }
           }
         }
       }
     }
-
   }
 }
+
 
 
 

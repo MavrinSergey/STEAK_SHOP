@@ -33,24 +33,29 @@ const swiper = new Swiper('.swiper', {
     }
 });
 
+//выбираем нужные элементы
+let a = document.querySelectorAll('.link');
 
-
-
-
-// Анимируем модальное окноqqq
-
-
-    $(document).ready(function () {
-    //Скрыть PopUp при загрузке страницы
-    PopUpHide();
+//перебираем все найденные элементы и вешаем на них события
+[].forEach.call(a, function (el) {
+    //вешаем событие
+    el.onclick = function (e) {
+        //производим действия
+        let idStr = el.id;
+        let idPopup = 'popup' + idStr
+        let close = '.close' + idStr
+        let popup = document.getElementById(idPopup),
+        popupClose = document.querySelector(close);
+        popup.style.display = 'block';
+        popupClose.onclick = function () {
+            popup.style.display = 'none';
+        };
+        window.onclick = function (e) {
+            if (e.target == popup) {
+                popup.style.display = 'none'
+            }
+        }
+    }
 });
 
-    //Функция отображения PopUp
-    function PopUpShow() {
-    $("#popup1").show();
-}
 
-    //Функция скрытия PopUp
-    function PopUpHide() {
-    $("#popup1").hide();
-}

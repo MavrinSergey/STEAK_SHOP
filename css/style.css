@@ -218,6 +218,48 @@ a:focus {
   padding-top: 1.5rem;
 }
 /*Оформление всплывающих окон*/
+/*Оформление всплывающих окон*/
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 10;
+  background-color: #2C2E35;
+}
+.popup-content {
+  text-align: right;
+  margin-right: 4.333rem;
+  margin-left: 9.6rem;
+  padding-top: 0.5rem;
+}
+.popup-content .popup-body {
+  margin-top: 0.4rem;
+  text-align: left;
+  display: flex;
+}
+.popup-content .popup-body .description {
+  margin-left: 6.9rem;
+}
+.popup-content .popup-body .description span {
+  color: #ffffff;
+}
+.popup-content .popup-body .description span h2 {
+  font-family: 'Roboto_bold', sans-serif;
+  font-size: 4rem;
+  line-height: 4.688rem;
+}
+.popup-content .popup-body .description span p {
+  font-family: 'Roboto_regular', sans-serif;
+  margin-top: 4rem;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  line-height: 2.93rem;
+}
 @media screen and (max-width: 768px) {
   button {
     font-size: 2rem;
@@ -329,50 +371,34 @@ a:focus {
   .footer .container .maps {
     display: none;
   }
-  .arrow {
-    opacity: 0;
-  }
   /*Оформление всплывающих окон*/
-  .popup {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 1;
-    background-color: #2C2E35;
+  .popup .popup-content {
+    margin: 0;
+    padding-top: 0;
   }
-  .popup-content {
-    margin-right: 5.5%;
-    margin-left: 5.5%;
+  .popup .popup-content .popup-header {
+    margin-top: 0.3rem;
   }
-  .popup-content .img-close {
-    text-align: right;
-  }
-  .popup-content .img-close img {
-    margin-top: 0.5rem;
-    border-color: #ffffff;
-  }
-  .popup-content .img-content {
+  .popup .popup-content .popup-body {
     margin-top: 0.4rem;
+    display: block;
     text-align: center;
   }
-  .popup-content .description {
+  .popup .popup-content .popup-body picture {
+    height: 24rem;
+  }
+  .popup .popup-content .popup-body .description {
     margin-top: 1.7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: left;
   }
-  .popup-content .description span {
-    color: #ffffff;
-  }
-  .popup-content .description span h2 {
-    font-family: 'Roboto_bold', sans-serif;
+  .popup .popup-content .popup-body .description span h2 {
     font-size: 2rem;
     line-height: 2.344rem;
+    margin-bottom: 0;
   }
-  .popup-content .description span p {
-    font-family: 'Roboto_regular', sans-serif;
+  .popup .popup-content .popup-body .description span p {
     margin-top: 2rem;
     margin-bottom: 0;
     font-size: 1.5rem;
