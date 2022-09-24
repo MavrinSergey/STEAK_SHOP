@@ -240,6 +240,10 @@ a:focus {
   text-align: left;
   display: flex;
 }
+.popup-content .popup-body picture {
+  height: content-box;
+  width: content-box;
+}
 .popup-content .popup-body .description {
   margin-left: 6.9rem;
 }
