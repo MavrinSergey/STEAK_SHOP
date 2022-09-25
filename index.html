@@ -38,6 +38,7 @@
 
     </div>
 </main>
+
 <!-- Секция Карусели -->
 <section id="catalog" class="features">
     <!-- Карусель Стейки -->
@@ -370,19 +371,19 @@
 <section class="order">
     <div class="container">
         <div class="form">
-            <form action="#">
+            <form action="sendform.php" method="POST">
                 <h2 class="second-header">Оформление заказа</h2>
                 <div class="row">
                     <div class="name col-md-6 col-sm-12 col-xs-12">
-                        <input type="text" placeholder="Имя">
+                        <input type="text" name="user_name" placeholder="Имя">
                     </div>
                     <div class="email col-md-6 col-sm-12 col-xs-12">
-                        <input type="email" placeholder="Email">
+                        <input type="email" name="user_email" placeholder="Email">
                     </div>
                 </div>
                 <div class="row">
                     <div class="tel col-md-6 offset-3 col-sm-12 offset-0 col-xs-12 offset-0">
-                        <input type="tel" placeholder="Номер телефона">
+                        <input type="tel" name="user_phone" placeholder="Номер телефона">
                     </div>
                 </div>
                 <button class="button header-btn" type="submit">Отправить</button>
@@ -444,12 +445,10 @@
         </div>
         <!-- Тело окна  -->
         <div class="popup-body">
-            <div class="img-content">
                 <picture>
                     <source srcset="img/popup_mv/mv_Minien.png" media="(max-width: 768px)">
                     <img src="img/popup/Minien.png" alt="Филе «Миньон»">
                 </picture>
-            </div>
             <div class="description">
                 <span>
                     <h2>Филе «Миньон», 1 кг</h2>
@@ -785,10 +784,9 @@
         <!-- Тело окна  -->
         <div class="popup-body">
             <picture>
-                <picture>
-                    <source srcset="img/popup_mv/Top_Blade.png" media="(max-width: 768px)">
-                    <img src="img/popup/Top_Blade.png" alt="Стейк «Топ-Блейд», 1 кг">
-                </picture>
+                <source srcset="img/popup_mv/Top_Blade.png" media="(max-width: 768px)">
+                <img src="img/popup/Top_Blade.png" alt="Стейк «Топ-Блейд», 1 кг">
+            </picture>
             <div class="description">
                 <span>
                     <h2>Стейк «Топ-Блейд», 1 кг</h2>
@@ -823,12 +821,11 @@
         </div>
         <!-- Тело окна  -->
         <div class="popup-body">
-            <picture>
                 <picture>
                     <source srcset="img/popup_mv/Denver.png" media="(max-width: 768px)">
                     <img src="img/popup/Denver.png" alt="Стейк «Денвер», 1 кг">
                 </picture>
-            <div class="description">
+                <div class="description">
                 <span>
                     <h2>Стейк «Денвер», 1 кг</h2>
                     <p>Стейк из небольшой мышцы, расположенной между шейным отделом позвоночника и лопаткой. Это самая
@@ -840,7 +837,7 @@
                         более слабом огне минут 7, регулярно переворачивая. Потом, как и другим стейкам, дайте
                         отдохнуть минут 5 под фольгой.</p>
                 </span>
-            </div>
+                </div>
         </div>
     </div>
 </div>
