@@ -1,7 +1,7 @@
 <?php
-$name = $_POST['name']; // input name
-$phone = $_POST['phone']; // input phone
-$email = $_POST['email']; // input phone
+$name = $_POST['user_name']; // input name
+$phone = $_POST['user_email']; // input phone
+$email = $_POST['user_phone']; // input phone
 // Токен телеграм бота
 $token = '5759772520:AAEVHcs8e7Jd4lA-pjZ8GoZRcZR382rCnWs';
 // ID чата
