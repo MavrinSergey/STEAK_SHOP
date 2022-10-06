@@ -3,9 +3,9 @@ $name = $_POST['user_name']; // input name
 $phone = $_POST['user_email']; // input phone
 $email = $_POST['user_phone']; // input phone
 // Токен телеграм бота
-$token = '5759772520:AAEVHcs8e7Jd4lA-pjZ8GoZRcZR382rCnWs';
+$token = '5663607956:AAFrkIlG6zmlTZ8VVeiLrqQ8lD7Hn5c9uQQ';
 // ID чата
-$chat_id = '-674378157';
+$chat_id = '-805251282';
 $arr = array(
   'Имя пользователя: ' => $name,
   'Телефон: ' => $phone,
