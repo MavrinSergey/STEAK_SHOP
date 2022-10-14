@@ -63,6 +63,7 @@
 /* Basic setting */
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -276,9 +277,9 @@ a {
 
 .grays-marbling {
   background: linear-gradient(@bg-top69, @bg-top69), url(../img/section4_bg.png) center no-repeat;
-  background-size: auto, cover;
+  background-size: cover;
   width: 100%;
-  height: 70.5rem;
+  height: 90rem;
 }
 
 .footer {
@@ -498,7 +499,7 @@ a {
   .grays-marbling {
     background-size: cover;
     width: 100%;
-    height: 26rem;
+    height: 40rem;
   }
 
   .footer {
@@ -518,7 +519,6 @@ a {
 
         p {
           margin-bottom: 1rem;
-
         }
       }
 
@@ -536,6 +536,7 @@ a {
 
   /*Оформление всплывающих окон*/
   .popup {
+    overflow-y: scroll;
     .popup-content {
       margin: 0;
       padding-top: 0;
