@@ -41,6 +41,7 @@ let a = document.querySelectorAll('.link');
     //вешаем событие
     el.onclick = function (e) {
         //производим действия
+        document.body.style.overflow = 'hidden';
         let idStr = el.id;
         let idPopup = 'popup' + idStr
         let close = '.close' + idStr
@@ -49,10 +50,12 @@ let a = document.querySelectorAll('.link');
         popup.style.display = 'block';
         popupClose.onclick = function () {
             popup.style.display = 'none';
+            document.body.style.overflow = 'scroll';
         };
         window.onclick = function (e) {
             if (e.target == popup) {
                 popup.style.display = 'none'
+                document.body.style.overflow = 'scroll';
             }
         }
     }
