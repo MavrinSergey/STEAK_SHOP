@@ -436,7 +436,7 @@
 <section class="footer">
     <div class="container">
         <div class="row">
-            <div class="contact col-md-5">
+            <div class="contact col-xl-5 contact col-sm-12">
                 <h2 class="second-header">Контакты</h2>
                 <span>
                     <a href="https://yandex.ru/maps/-/CCUV5GELkB"> 40 лет Победы, 25а,ТД"Разбазар"</a>
@@ -451,9 +451,12 @@
                     <a href="https://vk.com/steakshop_tlt"><img src="/img/icons_vk.png" alt="VK"></a>
                 </div>
             </div>
-            <div class="maps col-lg-7">
-                <script type="text/javascript" charset="utf-8" async
-                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa43c01a1120e16d990e64a9cf4f2d2e958433772c87c37ae6808d0c36774c9ec&amp;width=635&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
+            <div class="maps col-xl-7">
+                <script type="text/javascript" charset="utf-8" async>
+                    {
+                        if (document.documentElement.clientWidth > 1130) document.write('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa43c01a1120e16d990e64a9cf4f2d2e958433772c87c37ae6808d0c36774c9ec&amp;width=635&amp;height=480&amp;lang=ru_RU&amp;scroll=true" ></sc' + 'ript>');
+                    }
+                </script>
             </div>
         </div>
 
