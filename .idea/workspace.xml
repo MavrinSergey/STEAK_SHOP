@@ -6,80 +6,6 @@
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/Cowboy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/Denver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/Flank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/Minien.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/Ribay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/Strip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/Tibon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/Tomagavk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/Top_Blade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/beef_cutlet_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/beef_cutlet_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/bun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/bun_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/chuck_roll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/machete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/stew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/veal_cutlet_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Desktop/veal_cutlet_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/Cowboy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/Denver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/Flank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/Minien.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/Ribay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/Strip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/Tibon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/Tomagavk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/Top_Blade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/beef_cutlet_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/beef_cutlet_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/bun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/bun_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/chuck_roll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/machete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/stew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/veal_cutlet_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mobile/veal_cutlet_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/main_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/Cowboy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/Denver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/Flank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/Minien.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/Ribay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/Strip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/Tibon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/Tomagavk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/Top_Blade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/beef_cutlet_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/beef_cutlet_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/bun_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/bun_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/chuck_roll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/machete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/stew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/veal_cutlet_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup/veal_cutlet_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/Cowboy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/Denver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/Flank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/Ribay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/Strip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/Tibon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/Tomagavk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/Top_Blade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/beef_cutlet_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/beef_cutlet_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/bun_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/bun_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/chuck_roll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/machete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/mv_Minien.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/stew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/veal_cutlet_S.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/popup_mv/veal_cutlet_XL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/section3_bg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +90,7 @@
       <workItem from="1665771106287" duration="2473000" />
       <workItem from="1665773870938" duration="1034000" />
       <workItem from="1665774923409" duration="2031000" />
-      <workItem from="1665814666022" duration="2647000" />
+      <workItem from="1665814666022" duration="3895000" />
     </task>
     <servers />
   </component>

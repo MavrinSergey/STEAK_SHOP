@@ -136,8 +136,11 @@ a:focus {
   margin-bottom: 0;
   width: 25.5rem;
 }
+.features .container .swiper-box .swiper .swiper-wrapper .swiper-slide .text-stew {
+  height: 12.3rem;
+}
 .features .container .swiper-box .swiper .swiper-wrapper .swiper-slide .text {
-  height: 10rem;
+  height: 9rem;
 }
 .features .container .swiper-box .swiper .swiper-wrapper .swiper-slide button {
   margin-top: 1.6rem;
@@ -304,6 +307,9 @@ a:focus {
     margin-top: 1rem;
     height: 9.7rem;
     width: 15rem;
+  }
+  .features .container .swiper-box .swiper .swiper-wrapper .swiper-slide .text-stew {
+    height: 10.6rem;
   }
   .features .container .swiper-box .swiper .swiper-wrapper .swiper-slide .text {
     height: 5.5rem;
